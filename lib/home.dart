@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
                     builder: (context) => const HelloScreen(),
                   ),
                 ),
-                child: const Text('Provider'),
+                child: const Text('State Provider'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.red,
                   onPrimary: Colors.white,
@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                     builder: (context) => const HelloScreen(),
                   ),
                 ),
-                child: const Text('Provider'),
+                child: const Text('Stream Provider'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.blue,
                   onPrimary: Colors.white,
@@ -94,7 +94,7 @@ class HomeScreen extends StatelessWidget {
                     builder: (context) => const HelloScreen(),
                   ),
                 ),
-                child: const Text('Provider'),
+                child: const Text('Future Provider'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.orange,
                   onPrimary: Colors.white,
@@ -121,7 +121,7 @@ class HomeScreen extends StatelessWidget {
                     builder: (context) => const HelloScreen(),
                   ),
                 ),
-                child: const Text('Provider'),
+                child: const Text('Change Notifier Provider'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.brown,
                   onPrimary: Colors.white,
@@ -141,12 +141,12 @@ class HomeScreen extends StatelessWidget {
                     builder: (context) => const HelloScreen(),
                   ),
                 ),
-                child: const Text('Provider'),
+                child: const Text('State Notifier Provider'),
                 style: ElevatedButton.styleFrom(
                   primary: Colors.teal,
                   onPrimary: Colors.white,
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 110, vertical: 13),
+                      const EdgeInsets.symmetric(horizontal: 120, vertical: 12),
                 ),
               ),
             ),
